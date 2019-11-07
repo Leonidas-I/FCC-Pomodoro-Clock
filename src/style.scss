@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Digital";
+  src:  url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.eot");
+  src:  url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.eot?#iefix") format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.woff2") format("woff2"),
+        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.woff") format("woff"),
+        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.ttf") format("truetype"),
+        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.svg#Digital, serif, monospace") format("svg");
+}
+
+body {
+  background: salmon;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.timer {
+  font-size: 1.5em;
+  text-decoration: underline dashed ivory;
+  display: inline-block;
+  width: 200px;
+    .timerAdjust {
+      display: inline-block;
+      font-family: Digital;
+      font-size: 1.2em;
+    }
+}
+
+button {
+  background: none;
+  border: none;
+  color: aqua;
+  cursor: pointer;
+}
+
+.clockScreen {
+  border: solid 5px yellow;
+  border-radius: 50%;
+  box-shadow: 5px 5px 3px 3px grey;
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+  font-size: 2em;
+}
+
+.clockInfo {
+  margin: 75px 20px;
+  color: ivory;
+  #timer-label {
+    font: italic 1.5em Helvetica;
+  }
+  #time-left {
+    font: 2em Digital;
+  }
+}
+
+footer {
+  margin: 40px auto;
+  font-size: 1.5em;
+  color: ivory;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+  }
+}
