@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Digital";
-  src:  url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.eot");
-  src:  url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.eot?#iefix") format("embedded-opentype"),
-        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.woff2") format("woff2"),
-        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.woff") format("woff"),
-        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.ttf") format("truetype"),
-        url("//db.onlinewebfonts.com/t/1b40984d7a10bcae004877dc48f4cc8f.svg#Digital, serif, monospace") format("svg");
+  font-family: "DS-Digital";
+  src:  url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.eot");
+  src:  url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.eot?#iefix") format("embedded-opentype"),
+        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.woff2") format("woff2"),
+        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.woff") format("woff"),
+        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.ttf") format("truetype"),
+        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.svg#Digital, serif, monospace") format("svg");
 }
 
 body {
@@ -28,7 +28,7 @@ body {
   width: 200px;
     .timerAdjust {
       display: inline-block;
-      font-family: Digital;
+      font-family: DS-Digital;
       font-size: 1.2em;
     }
 }
@@ -57,7 +57,7 @@ button {
     font: italic 1.5em Helvetica;
   }
   #time-left {
-    font: 2em Digital;
+    font: 2em DS-Digital;
   }
 }
 
