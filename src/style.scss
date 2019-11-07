@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "DS-Digital";
+  src:  url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.eot");
+  src:  url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.eot?#iefix") format("embedded-opentype"),
+        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.woff2") format("woff2"),
+        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.woff") format("woff"),
+        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.ttf") format("truetype"),
+        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.svg#Digital, serif, monospace") format("svg");
+}
+
+body {
+  background: salmon;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.timer {
+  font-size: 1.5em;
+  text-decoration: underline dashed ivory;
+  display: inline-block;
+  width: 200px;
+    .timerAdjust {
+      display: inline-block;
+      font-family: DS-Digital;
+      font-size: 1.2em;
+    }
+}
+
+button {
+  background: none;
+  border: none;
+  color: aqua;
+  cursor: pointer;
+}
+
+.clockScreen {
+  border: solid 5px yellow;
+  border-radius: 50%;
+  box-shadow: 5px 5px 3px 3px grey;
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+  font-size: 2em;
+}
+
+.clockInfo {
+  margin: 75px 20px;
+  color: ivory;
+  #timer-label {
+    font: italic 1.5em Helvetica;
+  }
+  #time-left {
+    font: 2em DS-Digital;
+  }
+}
+
+footer {
+  margin: 40px auto;
+  font-size: 1.5em;
+  color: ivory;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+  }
+}
