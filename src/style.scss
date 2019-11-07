@@ -1,11 +1,11 @@
 @font-face {
   font-family: "DS-Digital";
-  src:  url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.eot");
-  src:  url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.eot?#iefix") format("embedded-opentype"),
-        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.woff2") format("woff2"),
-        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.woff") format("woff"),
-        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.ttf") format("truetype"),
-        url("../DS-Digital/63f874d192fb3892d88d5e26f942b5e2.svg#Digital, serif, monospace") format("svg");
+  src:  url("../font/63f874d192fb3892d88d5e26f942b5e2.eot");
+  src:  url("../font/63f874d192fb3892d88d5e26f942b5e2.eot?#iefix") format("embedded-opentype"),
+        url("../font/63f874d192fb3892d88d5e26f942b5e2.woff2") format("woff2"),
+        url("../font/63f874d192fb3892d88d5e26f942b5e2.woff") format("woff"),
+        url("../font/63f874d192fb3892d88d5e26f942b5e2.ttf") format("truetype"),
+        url("../font/63f874d192fb3892d88d5e26f942b5e2.svg#Digital, serif, monospace") format("svg");
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 
 .timer {
   font-size: 1.5em;
-  text-decoration: underline dashed ivory;
+  
   display: inline-block;
   width: 200px;
     .timerAdjust {
