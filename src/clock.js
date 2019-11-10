@@ -1,4 +1,5 @@
-import TimerSetUp from "./timersetup";
+import React, {Component} from "react";
+import {TimerSetUp} from "./timersetup";
 
 /*
 -xem them https://codepen.io/no_stack_dub_sack/pen/VKJGKd?editors=0010 ve dem countdown chinh xac 1 ma van chua hieu
@@ -6,7 +7,7 @@ import TimerSetUp from "./timersetup";
 -kha nang cao la countdown cua minh lam ko dc chinh xac 100%
 -Tri Phan
 */
-export default class Clock extends React.Component {
+export class Clock extends Component {
   constructor(props) {
     super(props);
     this.state = {
