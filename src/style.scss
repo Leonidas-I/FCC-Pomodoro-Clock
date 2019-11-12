@@ -1,12 +1,4 @@
-@font-face {
-  font-family: "DS-Digital";
-  src:  url("../font/63f874d192fb3892d88d5e26f942b5e2.eot");
-  src:  url("../font/63f874d192fb3892d88d5e26f942b5e2.eot?#iefix") format("embedded-opentype"),
-        url("../font/63f874d192fb3892d88d5e26f942b5e2.woff2") format("woff2"),
-        url("../font/63f874d192fb3892d88d5e26f942b5e2.woff") format("woff"),
-        url("../font/63f874d192fb3892d88d5e26f942b5e2.ttf") format("truetype"),
-        url("../font/63f874d192fb3892d88d5e26f942b5e2.svg#Digital, serif, monospace") format("svg");
-}
+@import url(https://db.onlinewebfonts.com/c/63f874d192fb3892d88d5e26f942b5e2?family=DS-Digital);
 
 body {
   background: salmon;
@@ -22,14 +14,14 @@ body {
 }
 
 .timer {
-  font-size: 1.5em;
+  font-size: 2em;
   
   display: inline-block;
-  width: 200px;
+  width: 300px;
     .timerAdjust {
       display: inline-block;
       font-family: DS-Digital;
-      font-size: 1.2em;
+      font-size: 1.5em;
     }
 }
 
@@ -65,6 +57,11 @@ footer {
   margin: 40px auto;
   font-size: 1.5em;
   color: ivory;
+  &:hover {
+    color: teal;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+    cursor: not-allowed;
+  }
 }
 
 @media screen and (max-width: 500px) {

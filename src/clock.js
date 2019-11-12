@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {TimerSetUp} from "./timersetup";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 /*
 -xem them https://codepen.io/no_stack_dub_sack/pen/VKJGKd?editors=0010 ve dem countdown chinh xac 1 ma van chua hieu
@@ -36,7 +37,7 @@ export class Clock extends Component {
     this.setState({
       clockMode: str,
       clockTimer: num,
-      clockColor: {color: 'blue'}
+      clockColor: str=='Break' ? {color: 'red'} : {color: 'blue'}
     });
   }
   
@@ -117,7 +118,7 @@ export class Clock extends Component {
   render() {
     return(
       <div>
-        <h1 style={{textAlign:'center', color: '#4b0082', fontSize: '4em'}}>Pomodoro Clock</h1>  {/*de cho nho cach khai bao inline style JSX*/}
+        <h1 style={{textAlign:'center', color: '#4b0082', fontSize: '5em'}}>Pomodoro Clock</h1>  {/*de cho nho cach khai bao inline style JSX*/}
         <TimerSetUp 
           labelID='break-label'
           label='Break Length'
@@ -148,18 +149,17 @@ export class Clock extends Component {
         </div>
         <div className='timerControl'>
           <button id='start_stop' onClick={this.playPause}>
-            <i className='fas fa-play fa-2x'/>
-            <i className='fas fa-pause fa-2x'/>
+            <FontAwesomeIcon icon='play' size='2x' />
+            <FontAwesomeIcon icon='pause' size='2x' />
           </button>
           <button id='reset' onClick={this.reset}>
-            <i className='fas fa-sync-alt fa-2x'/>
+            <FontAwesomeIcon icon='sync-alt' size='2x' />
           </button>
         </div>
         <audio id='beep' src='https://www.w3schools.com/html/horse.mp3'
           preload='auto' ref={(audio) => {this.beepMP3 = audio}} />
-        <footer>Code by Leonidas-I</footer>
+        <footer>Code by Leonidas-I aka TriPhan</footer>
       </div>
     )
   }
 };
-

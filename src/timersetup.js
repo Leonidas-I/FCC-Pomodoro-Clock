@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export class TimerSetUp extends Component {
   render() {
@@ -8,13 +9,13 @@ export class TimerSetUp extends Component {
           {this.props.label}
         </div>
         <button id={this.props.decrementID} onClick={this.props.onClick} value='-' className='timerAdjust'>
-          <i className='fas fa-angle-down'/>
+          <FontAwesomeIcon icon='angle-down' size='sm' />
         </button>
         <div id={this.props.lengthID} className='timerAdjust'>
           {this.props.length}
         </div>
         <button id={this.props.incrementID} onClick={this.props.onClick} value='+' className='timerAdjust'>
-          <i className='fas fa-angle-up'/>
+          <FontAwesomeIcon icon='angle-up' size='sm' />
         </button>
       </div>               
     )
