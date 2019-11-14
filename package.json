@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js --open",
     "prod": "webpack --config webpack.prod.js",
-    "analyze": "webpack-bundle-analyzer dist/stats.json --server"
+    "analyze": "webpack-bundle-analyzer dist/stats.json --static"
   },
   "repository": {
     "type": "git",
