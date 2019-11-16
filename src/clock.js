@@ -17,7 +17,7 @@ export class Clock extends Component {
       clockMode: 'Session',
       clockTimer: 1500,
       clockStatus: false,
-      clockColor: {color: 'blue'}
+      clockColor: {color: 'dodgerblue'}
     }
     this.adjustBreak = this.adjustBreak.bind(this);
     this.adjustSession = this.adjustSession.bind(this);
@@ -37,7 +37,7 @@ export class Clock extends Component {
     this.setState({
       clockMode: str,
       clockTimer: num,
-      clockColor: str=='Break' ? {color: 'red'} : {color: 'blue'}
+      clockColor: str=='Break' ? {color: 'seagreen'} : {color: 'dodgerblue'}
     });
   }
   
@@ -120,23 +120,23 @@ export class Clock extends Component {
       <div>
         <h1 style={{textAlign:'center', color: '#4b0082', fontSize: '5em'}}>Pomodoro Clock</h1>  {/*de cho nho cach khai bao inline style JSX*/}
         <TimerSetUp 
-          labelID='break-label'
-          label='Break Length'
-          decrementID='break-decrement'
-          incrementID='break-increment'
-          lengthID='break-length'
-          length={this.state.breakLength}
-          onClick={this.adjustBreak}
-          />
+        labelID='break-label'
+        label='Break Length'
+        decrementID='break-decrement'
+        incrementID='break-increment'
+        lengthID='break-length'
+        length={this.state.breakLength}
+        onClick={this.adjustBreak}
+        />
         <TimerSetUp 
-          labelID='session-label'
-          label='Session Length'
-          decrementID='session-decrement'
-          incrementID='session-increment'
-          lengthID='session-length'
-          length={this.state.sessionLength}
-          onClick={this.adjustSession}
-          />
+        labelID='session-label'
+        label='Session Length'
+        decrementID='session-decrement'
+        incrementID='session-increment'
+        lengthID='session-length'
+        length={this.state.sessionLength}
+        onClick={this.adjustSession}
+        />
         <div className='clockScreen'>
           <div className='clockInfo'>
             <div id='timer-label'>

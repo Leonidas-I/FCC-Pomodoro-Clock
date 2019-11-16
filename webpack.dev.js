@@ -5,10 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = merge(common, {
   mode: 'development',
-  output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'dist')
-  },
+  devtool: 'inline-cheap-module-source-map',
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/template.html'
@@ -17,11 +14,21 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
-        test: /\.s(a|c)ss$/,
+        test: /\.s[ac]ss$/,
         use: [
           'style-loader',
-          'css-loader',
-          'sass-loader'
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true
+            },
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
+          }
         ]
       }
     ]

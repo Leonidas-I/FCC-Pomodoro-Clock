@@ -1,14 +1,17 @@
 ### What i have done in this project on this branch
 
 nodejs npm git install on Arch  
-loader plugin - webpack config  
+loader plugin  
+webpack config for developement and production  
 some npm script  
-bundle all in dev mode with live server  
+sourcemap for dev mode  
 minify optimizecode - extract css  
-webpack bundle analyzer in stats.json
+webpack bundle analyzer in stats.json  
+split chunk react react-dom  
+add font awesome 5 into webpack
 
 
 ### Things i may have improve
-code splitting  
+code splitting - dynamic import  
 css module  
-eslint?
+eslint ?

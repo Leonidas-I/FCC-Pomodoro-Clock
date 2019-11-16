@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --config webpack.dev.js --open",
-    "prod": "webpack --config webpack.prod.js",
+    "develope": "webpack-dev-server --config webpack.dev.js --open",
+    "product": "webpack --config webpack.prod.js",
     "analyze": "webpack-bundle-analyzer dist/stats.json --static"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Leonidas-I/FCC-Pomodoro-Clock#readme",
   "devDependencies": {
     "@babel/core": "^7.7.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
     "babel-loader": "^8.0.6",
