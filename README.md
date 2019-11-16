@@ -14,4 +14,6 @@ add font awesome 5 into webpack
 ### Things i may have improve
 code splitting - dynamic import  
 css module  
-eslint ?
+eslint ?  
+  
+why the heck git tree only see 1 branch commit?
