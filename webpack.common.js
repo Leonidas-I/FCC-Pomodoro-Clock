@@ -9,6 +9,11 @@ module.exports = {
           test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
           name: 'vendor',
           chunks: 'all',
+        },
+        common: {
+          test: /[\\/]node_modules[\\/]@fortawesome[\\/]/,
+          name: 'common',
+          chunks: 'all',
         }
       }
     }
