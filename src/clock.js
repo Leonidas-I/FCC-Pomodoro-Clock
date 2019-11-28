@@ -109,7 +109,7 @@ export class Clock extends Component {
       clockMode: 'Session',
       clockTimer: 1500,
       clockStatus: false,
-      clockColor: {color: 'blue'}
+      clockColor: {color: 'dodgerblue'}
     });
     this.beepMP3.pause();
     this.beepMP3.currentTime = 0;
@@ -158,7 +158,7 @@ export class Clock extends Component {
         </div>
         <audio id='beep' src='https://www.w3schools.com/html/horse.mp3'
           preload='auto' ref={(audio) => {this.beepMP3 = audio}} />
-        <footer>Code by Leonidas-I aka TriPhan</footer>
+        <footer>Code by <a href='https://github.com/Leonidas-I'>Leonidas-I</a> aka TriPhan</footer>
       </div>
     )
   }
