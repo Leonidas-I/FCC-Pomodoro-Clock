@@ -157,7 +157,7 @@ export class Clock extends Component {
           </button>
         </div>
         <audio id='beep' src='https://www.w3schools.com/html/horse.mp3'
-          preload='auto' ref={(audio) => {this.beepMP3 = audio}} />
+          rel='preload' ref={(audio) => {this.beepMP3 = audio}} />
         <footer>Code by <a href='https://github.com/Leonidas-I'>Leonidas-I</a> aka TriPhan</footer>
       </div>
     )
