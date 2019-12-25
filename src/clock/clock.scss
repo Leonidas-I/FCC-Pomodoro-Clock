@@ -1,0 +1,20 @@
+.clockScreen {
+  border: solid 5px yellow;
+  border-radius: 50%;
+  box-shadow: 5px 5px 3px 3px grey;
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+  font-size: 2em;
+}
+
+.clockInfo {
+  margin: 75px 20px;
+  color: ivory;
+  .timerLabel {
+    font: italic 1.5em sans-serif;
+  }
+  .timeLeft {
+    font: 2em DS-Digital, sans-serif, Arial;
+  }
+}

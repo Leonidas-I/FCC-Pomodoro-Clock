@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {TimerSetUp} from "./timersetup";
+import { TimerSetUp } from "../timersetup/timersetup";
+import clockCSS from './clock.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 /*
@@ -137,17 +138,17 @@ export class Clock extends Component {
         length={this.state.sessionLength}
         onClick={this.adjustSession}
         />
-        <div className='clockScreen'>
-          <div className='clockInfo'>
-            <div id='timer-label'>
+        <div className={clockCSS.clockScreen}>
+          <div className={clockCSS.clockInfo}>
+            <div className={clockCSS.timerLabel}>
               {this.state.clockMode}
             </div>
-            <div id='time-left' style={this.state.clockColor}>
+            <div className={clockCSS.timeLeft} style={this.state.clockColor}>
               {this.clockDisplay()}
             </div>
           </div>
         </div>
-        <div className='timerControl'>
+        <div>
           <button id='start_stop' onClick={this.playPause}>
             <FontAwesomeIcon icon='play' size='2x' />
             <FontAwesomeIcon icon='pause' size='2x' />
