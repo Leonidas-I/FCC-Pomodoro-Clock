@@ -4,15 +4,15 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "b2281af8c1bdbb70c252",
-  "time": 18455,
-  "builtAt": 1577461337245,
+  "hash": "db2894ac91e72eb1e274",
+  "time": 18255,
+  "builtAt": 1577461556914,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Pomodoro-Clock/dist",
   "assetsByChunkName": {
     "common": "common.d0f6cacadf552a642f8c.js",
     "main": [
-      "main.1c4716b43e542783f5f6.css",
+      "main.48666a92a12ef0ce0990.css",
       "main.0ea72621dce2ab82bc0c.js"
     ],
     "vendor": "vendor.04d3b97be598859630cf.js"
@@ -113,8 +113,8 @@
       "emitted": true
     },
     {
-      "name": "main.1c4716b43e542783f5f6.css",
-      "size": 1706,
+      "name": "main.48666a92a12ef0ce0990.css",
+      "size": 1708,
       "chunks": [
         1
       ],
@@ -152,7 +152,7 @@
       "assets": [
         "vendor.04d3b97be598859630cf.js",
         "common.d0f6cacadf552a642f8c.js",
-        "main.1c4716b43e542783f5f6.css",
+        "main.48666a92a12ef0ce0990.css",
         "main.0ea72621dce2ab82bc0c.js"
       ],
       "children": {
@@ -171,7 +171,7 @@
       "assets": [
         "vendor.04d3b97be598859630cf.js",
         "common.d0f6cacadf552a642f8c.js",
-        "main.1c4716b43e542783f5f6.css",
+        "main.48666a92a12ef0ce0990.css",
         "main.0ea72621dce2ab82bc0c.js"
       ],
       "children": {
@@ -1507,15 +1507,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 39531,
+      "size": 39533,
       "names": [
         "main"
       ],
       "files": [
-        "main.1c4716b43e542783f5f6.css",
+        "main.48666a92a12ef0ce0990.css",
         "main.0ea72621dce2ab82bc0c.js"
       ],
-      "hash": "852cc87d5c3cdf888e3d",
+      "hash": "efa7c8bb258b5fb449d7",
       "siblings": [
         0,
         2
@@ -2989,7 +2989,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/clock/clock.scss",
           "index": 24,
           "index2": 21,
-          "size": 618,
+          "size": 620,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -6913,7 +6913,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/clock/clock.scss",
       "index": 24,
       "index2": 21,
-      "size": 618,
+      "size": 620,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -7261,14 +7261,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3674,
+          "size": 3676,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "532cfac6fade8428cb74",
+          "hash": "d514b4c924e913ae83b2",
           "siblings": [
           ],
           "parents": [
@@ -7284,7 +7284,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/clock/clock.scss",
               "index": 0,
               "index2": 1,
-              "size": 997,
+              "size": 999,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -7318,7 +7318,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._3QAoeVjhJK5hdIfPmsVAkF{height:100vh;display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column wrap}._2MwrOoy71nES6eEsL4GAq2{border:solid 5px yellow;border-radius:50%;box-shadow:5px 5px 3px 3px grey;width:300px;height:300px;margin:30px auto;font-size:2em}._3uIQ9W29pmqFtS1Y8GpBRl{margin:75px 20px;color:ivory}._3uIQ9W29pmqFtS1Y8GpBRl ._387f2_yLgEh2VrU3IAIAJo{font:italic 1.5em sans-serif}._3uIQ9W29pmqFtS1Y8GpBRl ._1bG_RPQ1LWuqSl2sWec9q{font:2em DS-Digital, sans-serif, Arial}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"_3QAoeVjhJK5hdIfPmsVAkF\",\n\t\"clockScreen\": \"_2MwrOoy71nES6eEsL4GAq2\",\n\t\"clockInfo\": \"_3uIQ9W29pmqFtS1Y8GpBRl\",\n\t\"timerLabel\": \"_387f2_yLgEh2VrU3IAIAJo\",\n\t\"timeLeft\": \"_1bG_RPQ1LWuqSl2sWec9q\"\n};"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._3QAoeVjhJK5hdIfPmsVAkF{height:100vh;display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}._2MwrOoy71nES6eEsL4GAq2{border:solid 5px yellow;border-radius:50%;box-shadow:5px 5px 3px 3px grey;width:300px;height:300px;margin:30px auto;font-size:2em}._3uIQ9W29pmqFtS1Y8GpBRl{margin:75px 20px;color:ivory}._3uIQ9W29pmqFtS1Y8GpBRl ._387f2_yLgEh2VrU3IAIAJo{font:italic 1.5em sans-serif}._3uIQ9W29pmqFtS1Y8GpBRl ._1bG_RPQ1LWuqSl2sWec9q{font:2em DS-Digital, sans-serif, Arial}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"_3QAoeVjhJK5hdIfPmsVAkF\",\n\t\"clockScreen\": \"_2MwrOoy71nES6eEsL4GAq2\",\n\t\"clockInfo\": \"_3uIQ9W29pmqFtS1Y8GpBRl\",\n\t\"timerLabel\": \"_387f2_yLgEh2VrU3IAIAJo\",\n\t\"timeLeft\": \"_1bG_RPQ1LWuqSl2sWec9q\"\n};"
             },
             {
               "id": 1,
@@ -7390,7 +7390,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/clock/clock.scss",
           "index": 0,
           "index2": 1,
-          "size": 997,
+          "size": 999,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -7424,7 +7424,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._3QAoeVjhJK5hdIfPmsVAkF{height:100vh;display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column wrap}._2MwrOoy71nES6eEsL4GAq2{border:solid 5px yellow;border-radius:50%;box-shadow:5px 5px 3px 3px grey;width:300px;height:300px;margin:30px auto;font-size:2em}._3uIQ9W29pmqFtS1Y8GpBRl{margin:75px 20px;color:ivory}._3uIQ9W29pmqFtS1Y8GpBRl ._387f2_yLgEh2VrU3IAIAJo{font:italic 1.5em sans-serif}._3uIQ9W29pmqFtS1Y8GpBRl ._1bG_RPQ1LWuqSl2sWec9q{font:2em DS-Digital, sans-serif, Arial}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"_3QAoeVjhJK5hdIfPmsVAkF\",\n\t\"clockScreen\": \"_2MwrOoy71nES6eEsL4GAq2\",\n\t\"clockInfo\": \"_3uIQ9W29pmqFtS1Y8GpBRl\",\n\t\"timerLabel\": \"_387f2_yLgEh2VrU3IAIAJo\",\n\t\"timeLeft\": \"_1bG_RPQ1LWuqSl2sWec9q\"\n};"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._3QAoeVjhJK5hdIfPmsVAkF{height:100vh;display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}._2MwrOoy71nES6eEsL4GAq2{border:solid 5px yellow;border-radius:50%;box-shadow:5px 5px 3px 3px grey;width:300px;height:300px;margin:30px auto;font-size:2em}._3uIQ9W29pmqFtS1Y8GpBRl{margin:75px 20px;color:ivory}._3uIQ9W29pmqFtS1Y8GpBRl ._387f2_yLgEh2VrU3IAIAJo{font:italic 1.5em sans-serif}._3uIQ9W29pmqFtS1Y8GpBRl ._1bG_RPQ1LWuqSl2sWec9q{font:2em DS-Digital, sans-serif, Arial}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"_3QAoeVjhJK5hdIfPmsVAkF\",\n\t\"clockScreen\": \"_2MwrOoy71nES6eEsL4GAq2\",\n\t\"clockInfo\": \"_3uIQ9W29pmqFtS1Y8GpBRl\",\n\t\"timerLabel\": \"_387f2_yLgEh2VrU3IAIAJo\",\n\t\"timeLeft\": \"_1bG_RPQ1LWuqSl2sWec9q\"\n};"
         },
         {
           "id": 1,
