@@ -118,26 +118,28 @@ export class Clock extends Component {
   
   render() {
     return(
-      <div>
-        <h1 style={{textAlign:'center', color: '#4b0082', fontSize: '5em'}}>Pomodoro Clock</h1>  {/*de cho nho cach khai bao inline style JSX*/}
-        <TimerSetUp 
-        labelID='break-label'
-        label='Break Length'
-        decrementID='break-decrement'
-        incrementID='break-increment'
-        lengthID='break-length'
-        length={this.state.breakLength}
-        onClick={this.adjustBreak}
-        />
-        <TimerSetUp 
-        labelID='session-label'
-        label='Session Length'
-        decrementID='session-decrement'
-        incrementID='session-increment'
-        lengthID='session-length'
-        length={this.state.sessionLength}
-        onClick={this.adjustSession}
-        />
+      <div className={clockCSS.container}>
+        <div>
+          <h1 style={{textAlign:'center', color: '#4b0082', fontSize: '5em'}}>Pomodoro Clock</h1>  {/*de cho nho cach khai bao inline style JSX*/}
+          <TimerSetUp 
+          labelID='break-label'
+          label='Break Length'
+          decrementID='break-decrement'
+          incrementID='break-increment'
+          lengthID='break-length'
+          length={this.state.breakLength}
+          onClick={this.adjustBreak}
+          />
+          <TimerSetUp 
+          labelID='session-label'
+          label='Session Length'
+          decrementID='session-decrement'
+          incrementID='session-increment'
+          lengthID='session-length'
+          length={this.state.sessionLength}
+          onClick={this.adjustSession}
+          />
+        </div>
         <div className={clockCSS.clockScreen}>
           <div className={clockCSS.clockInfo}>
             <div className={clockCSS.timerLabel}>
@@ -150,16 +152,16 @@ export class Clock extends Component {
         </div>
         <div>
           <button id='start_stop' onClick={this.playPause}>
-            <FontAwesomeIcon icon='play' size='2x' />
-            <FontAwesomeIcon icon='pause' size='2x' />
+            <FontAwesomeIcon icon='play' size='3x' />
+            <FontAwesomeIcon icon='pause' size='3x' />
           </button>
           <button id='reset' onClick={this.reset}>
-            <FontAwesomeIcon icon='sync-alt' size='2x' />
+            <FontAwesomeIcon icon='sync-alt' size='3x' />
           </button>
         </div>
         <audio id='beep' src='https://www.w3schools.com/html/horse.mp3'
           rel='preload' ref={(audio) => {this.beepMP3 = audio}} />
-        <footer>Code by <a href='https://github.com/Leonidas-I'>Leonidas-I</a> aka TriPhan</footer>
+        <footer>Code by <a href='https://github.com/Leonidas-I'>Leonidas-I</a> aka Tri Phan</footer>
       </div>
     )
   }
