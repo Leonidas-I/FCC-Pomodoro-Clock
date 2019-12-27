@@ -4,15 +4,15 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "e94ebb317c19742c8dfa",
-  "time": 27673,
-  "builtAt": 1577285981103,
+  "hash": "69b20b31702ee30ceedf",
+  "time": 43329,
+  "builtAt": 1577459171053,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Pomodoro-Clock/dist",
   "assetsByChunkName": {
     "common": "common.2fee9e368e2da72449e2.js",
     "main": [
-      "main.e3dd4d78fe0f60d3f14a.css",
+      "main.1f165150648082fd6da3.css",
       "main.c2a2b9885606bb2be2af.js"
     ],
     "vendor": "vendor.04d3b97be598859630cf.js"
@@ -99,8 +99,8 @@
       "emitted": true
     },
     {
-      "name": "main.c2a2b9885606bb2be2af.js",
-      "size": 19989,
+      "name": "main.1f165150648082fd6da3.css",
+      "size": 1616,
       "chunks": [
         1
       ],
@@ -113,8 +113,8 @@
       "emitted": true
     },
     {
-      "name": "main.e3dd4d78fe0f60d3f14a.css",
-      "size": 1616,
+      "name": "main.c2a2b9885606bb2be2af.js",
+      "size": 19989,
       "chunks": [
         1
       ],
@@ -152,7 +152,7 @@
       "assets": [
         "vendor.04d3b97be598859630cf.js",
         "common.2fee9e368e2da72449e2.js",
-        "main.e3dd4d78fe0f60d3f14a.css",
+        "main.1f165150648082fd6da3.css",
         "main.c2a2b9885606bb2be2af.js"
       ],
       "children": {
@@ -171,7 +171,7 @@
       "assets": [
         "vendor.04d3b97be598859630cf.js",
         "common.2fee9e368e2da72449e2.js",
-        "main.e3dd4d78fe0f60d3f14a.css",
+        "main.1f165150648082fd6da3.css",
         "main.c2a2b9885606bb2be2af.js"
       ],
       "children": {
@@ -1512,10 +1512,10 @@
         "main"
       ],
       "files": [
-        "main.e3dd4d78fe0f60d3f14a.css",
+        "main.1f165150648082fd6da3.css",
         "main.c2a2b9885606bb2be2af.js"
       ],
-      "hash": "5af5e6d9852aec20a429",
+      "hash": "6aead03d55b2b4200900",
       "siblings": [
         0,
         2
@@ -2309,11 +2309,11 @@
           "errors": 0,
           "warnings": 0,
           "assets": [
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2",
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.ttf",
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.svg",
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2"
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.svg"
           ],
           "reasons": [
             {
@@ -6206,11 +6206,11 @@
       "errors": 0,
       "warnings": 0,
       "assets": [
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2",
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.ttf",
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.svg",
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2"
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.svg"
       ],
       "reasons": [
         {
@@ -7505,7 +7505,7 @@
           "files": [
             "*"
           ],
-          "hash": "158b57306868b73fb80a",
+          "hash": "4a699ae167198d9bdb1f",
           "siblings": [
           ],
           "parents": [
@@ -7612,7 +7612,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:salmon;text-align:center;font-family:Arial, Helvetica, sans-serif}#NgFo-PShGaBn0ACtozUiQ{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;height:100vh}button{background:none;border:none;color:aqua;cursor:pointer}footer{margin:40px auto;font-size:2em;color:teal}footer:hover{color:ivory;-webkit-transition:cubic-bezier(0.165, 0.84, 0.44, 1);transition:cubic-bezier(0.165, 0.84, 0.44, 1);cursor:not-allowed}footer a{text-decoration:none}@media screen and (max-width: 500px){body{-webkit-transform:scale(0.7);transform:scale(0.7)}}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"app\": \"NgFo-PShGaBn0ACtozUiQ\"\n};"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:salmon;text-align:center;font-family:Arial, Helvetica, sans-serif}#NgFo-PShGaBn0ACtozUiQ{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;height:100vh}button{background:none;border:none;color:aqua;cursor:pointer}footer{margin:40px auto;font-size:2em;color:teal}footer:hover{color:ivory;-webkit-transition:cubic-bezier(0.165, 0.84, 0.44, 1);transition:cubic-bezier(0.165, 0.84, 0.44, 1);cursor:not-allowed}footer a{text-decoration:none}@media screen and (max-width: 720px){body{-webkit-transform:scale(0.6);transform:scale(0.6)}}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"app\": \"NgFo-PShGaBn0ACtozUiQ\"\n};"
             },
             {
               "id": 2,
@@ -8015,7 +8015,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:salmon;text-align:center;font-family:Arial, Helvetica, sans-serif}#NgFo-PShGaBn0ACtozUiQ{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;height:100vh}button{background:none;border:none;color:aqua;cursor:pointer}footer{margin:40px auto;font-size:2em;color:teal}footer:hover{color:ivory;-webkit-transition:cubic-bezier(0.165, 0.84, 0.44, 1);transition:cubic-bezier(0.165, 0.84, 0.44, 1);cursor:not-allowed}footer a{text-decoration:none}@media screen and (max-width: 500px){body{-webkit-transform:scale(0.7);transform:scale(0.7)}}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"app\": \"NgFo-PShGaBn0ACtozUiQ\"\n};"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nvar getUrl = require(\"../node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL___0___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\"));\nvar ___CSS_LOADER_URL___1___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.eot\") + \"?#iefix\");\nvar ___CSS_LOADER_URL___2___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff2\"));\nvar ___CSS_LOADER_URL___3___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.woff\"));\nvar ___CSS_LOADER_URL___4___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.ttf\"));\nvar ___CSS_LOADER_URL___5___ = getUrl(require(\"../fonts/63f874d192fb3892d88d5e26f942b5e2.svg\") + \"#DS-Digital\");\n// Module\nexports.push([module.id, \"@font-face{font-family:\\\"DS-Digital\\\";src:url(\" + ___CSS_LOADER_URL___0___ + \");src:url(\" + ___CSS_LOADER_URL___1___ + \") format(\\\"embedded-opentype\\\"),url(\" + ___CSS_LOADER_URL___2___ + \") format(\\\"woff2\\\"),url(\" + ___CSS_LOADER_URL___3___ + \") format(\\\"woff\\\"),url(\" + ___CSS_LOADER_URL___4___ + \") format(\\\"truetype\\\"),url(\" + ___CSS_LOADER_URL___5___ + \") format(\\\"svg\\\")}body{background:salmon;text-align:center;font-family:Arial, Helvetica, sans-serif}#NgFo-PShGaBn0ACtozUiQ{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;height:100vh}button{background:none;border:none;color:aqua;cursor:pointer}footer{margin:40px auto;font-size:2em;color:teal}footer:hover{color:ivory;-webkit-transition:cubic-bezier(0.165, 0.84, 0.44, 1);transition:cubic-bezier(0.165, 0.84, 0.44, 1);cursor:not-allowed}footer a{text-decoration:none}@media screen and (max-width: 720px){body{-webkit-transform:scale(0.6);transform:scale(0.6)}}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"app\": \"NgFo-PShGaBn0ACtozUiQ\"\n};"
         },
         {
           "id": 2,
