@@ -4,16 +4,16 @@
   "warnings": [
   ],
   "version": "4.41.2",
-  "hash": "46bfb187e52012b268f0",
-  "time": 19379,
-  "builtAt": 1577462851446,
+  "hash": "3fd9472ee7a5e846a7e1",
+  "time": 39492,
+  "builtAt": 1577534591017,
   "publicPath": "",
   "outputPath": "/home/arcolinux/leonidas-project/FCC-Pomodoro-Clock/dist",
   "assetsByChunkName": {
     "common": "common.d0f6cacadf552a642f8c.js",
     "main": [
-      "main.48666a92a12ef0ce0990.css",
-      "main.489363c3469a09a3b2c8.js"
+      "main.dc7597f689bd9c482231.css",
+      "main.c1aa930649c497391af9.js"
     ],
     "vendor": "vendor.04d3b97be598859630cf.js"
   },
@@ -99,8 +99,8 @@
       "emitted": true
     },
     {
-      "name": "main.48666a92a12ef0ce0990.css",
-      "size": 1708,
+      "name": "main.c1aa930649c497391af9.js",
+      "size": 19920,
       "chunks": [
         1
       ],
@@ -113,8 +113,8 @@
       "emitted": true
     },
     {
-      "name": "main.489363c3469a09a3b2c8.js",
-      "size": 20038,
+      "name": "main.dc7597f689bd9c482231.css",
+      "size": 1539,
       "chunks": [
         1
       ],
@@ -152,8 +152,8 @@
       "assets": [
         "vendor.04d3b97be598859630cf.js",
         "common.d0f6cacadf552a642f8c.js",
-        "main.48666a92a12ef0ce0990.css",
-        "main.489363c3469a09a3b2c8.js"
+        "main.dc7597f689bd9c482231.css",
+        "main.c1aa930649c497391af9.js"
       ],
       "children": {
       },
@@ -171,8 +171,8 @@
       "assets": [
         "vendor.04d3b97be598859630cf.js",
         "common.d0f6cacadf552a642f8c.js",
-        "main.48666a92a12ef0ce0990.css",
-        "main.489363c3469a09a3b2c8.js"
+        "main.dc7597f689bd9c482231.css",
+        "main.c1aa930649c497391af9.js"
       ],
       "children": {
       },
@@ -1507,15 +1507,15 @@
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 39534,
+      "size": 39247,
       "names": [
         "main"
       ],
       "files": [
-        "main.48666a92a12ef0ce0990.css",
-        "main.489363c3469a09a3b2c8.js"
+        "main.dc7597f689bd9c482231.css",
+        "main.c1aa930649c497391af9.js"
       ],
-      "hash": "a0884146256572223630",
+      "hash": "e3b2e4a3a77688a635b5",
       "siblings": [
         0,
         2
@@ -1836,7 +1836,7 @@
           "name": "./src/clock/clock.scss",
           "index": 23,
           "index2": 22,
-          "size": 250,
+          "size": 166,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1928,7 +1928,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 2,
-          "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\"_3QAoeVjhJK5hdIfPmsVAkF\",\"clockScreen\":\"_2MwrOoy71nES6eEsL4GAq2\",\"clockInfo\":\"_3uIQ9W29pmqFtS1Y8GpBRl\",\"timerLabel\":\"_387f2_yLgEh2VrU3IAIAJo\",\"timeLeft\":\"_1bG_RPQ1LWuqSl2sWec9q\"};"
+          "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\"_3QAoe\",\"clockScreen\":\"_2MwrO\",\"clockInfo\":\"_3uIQ9\",\"timerLabel\":\"_387f2\",\"timeLeft\":\"_1bG_R\"};"
         },
         {
           "id": 6,
@@ -1936,7 +1936,7 @@
           "name": "./src/timersetup/timersetup.scss",
           "index": 21,
           "index2": 19,
-          "size": 133,
+          "size": 99,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2024,7 +2024,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 3,
-          "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"timer\":\"_1E5QONaO3KL4LHKY03Ri-K\",\"timerAdjust\":\"_1SR4Nx614iFVUwZxBE1JQf\"};"
+          "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"timer\":\"_1E5QO\",\"timerAdjust\":\"_1SR4N\"};"
         },
         {
           "id": 7,
@@ -2319,10 +2319,10 @@
           "warnings": 0,
           "assets": [
             "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2",
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
             "fonts/63f874d192fb3892d88d5e26f942b5e2.ttf",
-            "fonts/63f874d192fb3892d88d5e26f942b5e2.svg"
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.svg",
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
+            "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2"
           ],
           "reasons": [
             {
@@ -2989,7 +2989,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/clock/clock.scss",
           "index": 24,
           "index2": 21,
-          "size": 620,
+          "size": 502,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -3042,7 +3042,7 @@
           "name": "css ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/timersetup/timersetup.scss",
           "index": 22,
           "index2": 18,
-          "size": 202,
+          "size": 151,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -4423,7 +4423,7 @@
       "name": "./src/clock/clock.scss",
       "index": 23,
       "index2": 22,
-      "size": 250,
+      "size": 166,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -4515,7 +4515,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 2,
-      "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\"_3QAoeVjhJK5hdIfPmsVAkF\",\"clockScreen\":\"_2MwrOoy71nES6eEsL4GAq2\",\"clockInfo\":\"_3uIQ9W29pmqFtS1Y8GpBRl\",\"timerLabel\":\"_387f2_yLgEh2VrU3IAIAJo\",\"timeLeft\":\"_1bG_RPQ1LWuqSl2sWec9q\"};"
+      "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"container\":\"_3QAoe\",\"clockScreen\":\"_2MwrO\",\"clockInfo\":\"_3uIQ9\",\"timerLabel\":\"_387f2\",\"timeLeft\":\"_1bG_R\"};"
     },
     {
       "id": 4,
@@ -5695,7 +5695,7 @@
       "name": "./src/timersetup/timersetup.scss",
       "index": 21,
       "index2": 19,
-      "size": 133,
+      "size": 99,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -5783,7 +5783,7 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 3,
-      "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"timer\":\"_1E5QONaO3KL4LHKY03Ri-K\",\"timerAdjust\":\"_1SR4Nx614iFVUwZxBE1JQf\"};"
+      "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"timer\":\"_1E5QO\",\"timerAdjust\":\"_1SR4N\"};"
     },
     {
       "id": 7,
@@ -6243,10 +6243,10 @@
       "warnings": 0,
       "assets": [
         "fonts/63f874d192fb3892d88d5e26f942b5e2.eot",
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2",
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
         "fonts/63f874d192fb3892d88d5e26f942b5e2.ttf",
-        "fonts/63f874d192fb3892d88d5e26f942b5e2.svg"
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.svg",
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.woff",
+        "fonts/63f874d192fb3892d88d5e26f942b5e2.woff2"
       ],
       "reasons": [
         {
@@ -6913,7 +6913,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/clock/clock.scss",
       "index": 24,
       "index2": 21,
-      "size": 620,
+      "size": 502,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -6966,7 +6966,7 @@
       "name": "css ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/timersetup/timersetup.scss",
       "index": 22,
       "index2": 18,
-      "size": 202,
+      "size": 151,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -7261,14 +7261,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3676,
+          "size": 3474,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "d514b4c924e913ae83b2",
+          "hash": "7b411ffa0854fac13c63",
           "siblings": [
           ],
           "parents": [
@@ -7284,7 +7284,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/clock/clock.scss",
               "index": 0,
               "index2": 1,
-              "size": 999,
+              "size": 797,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -7318,7 +7318,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._3QAoeVjhJK5hdIfPmsVAkF{height:100vh;display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}._2MwrOoy71nES6eEsL4GAq2{border:solid 5px yellow;border-radius:50%;box-shadow:5px 5px 3px 3px grey;width:300px;height:300px;margin:30px auto;font-size:2em}._3uIQ9W29pmqFtS1Y8GpBRl{margin:75px 20px;color:ivory}._3uIQ9W29pmqFtS1Y8GpBRl ._387f2_yLgEh2VrU3IAIAJo{font:italic 1.5em sans-serif}._3uIQ9W29pmqFtS1Y8GpBRl ._1bG_RPQ1LWuqSl2sWec9q{font:2em DS-Digital, sans-serif, Arial}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"_3QAoeVjhJK5hdIfPmsVAkF\",\n\t\"clockScreen\": \"_2MwrOoy71nES6eEsL4GAq2\",\n\t\"clockInfo\": \"_3uIQ9W29pmqFtS1Y8GpBRl\",\n\t\"timerLabel\": \"_387f2_yLgEh2VrU3IAIAJo\",\n\t\"timeLeft\": \"_1bG_RPQ1LWuqSl2sWec9q\"\n};"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._3QAoe{height:100vh;display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}._2MwrO{border:solid 5px yellow;border-radius:50%;box-shadow:5px 5px 3px 3px grey;width:300px;height:300px;margin:30px auto;font-size:2em}._3uIQ9{margin:75px 20px;color:ivory}._3uIQ9 ._387f2{font:italic 1.5em sans-serif}._3uIQ9 ._1bG_R{font:2em DS-Digital, sans-serif, Arial}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"_3QAoe\",\n\t\"clockScreen\": \"_2MwrO\",\n\t\"clockInfo\": \"_3uIQ9\",\n\t\"timerLabel\": \"_387f2\",\n\t\"timeLeft\": \"_1bG_R\"\n};"
             },
             {
               "id": 1,
@@ -7390,7 +7390,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/clock/clock.scss",
           "index": 0,
           "index2": 1,
-          "size": 999,
+          "size": 797,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -7424,7 +7424,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._3QAoeVjhJK5hdIfPmsVAkF{height:100vh;display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}._2MwrOoy71nES6eEsL4GAq2{border:solid 5px yellow;border-radius:50%;box-shadow:5px 5px 3px 3px grey;width:300px;height:300px;margin:30px auto;font-size:2em}._3uIQ9W29pmqFtS1Y8GpBRl{margin:75px 20px;color:ivory}._3uIQ9W29pmqFtS1Y8GpBRl ._387f2_yLgEh2VrU3IAIAJo{font:italic 1.5em sans-serif}._3uIQ9W29pmqFtS1Y8GpBRl ._1bG_RPQ1LWuqSl2sWec9q{font:2em DS-Digital, sans-serif, Arial}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"_3QAoeVjhJK5hdIfPmsVAkF\",\n\t\"clockScreen\": \"_2MwrOoy71nES6eEsL4GAq2\",\n\t\"clockInfo\": \"_3uIQ9W29pmqFtS1Y8GpBRl\",\n\t\"timerLabel\": \"_387f2_yLgEh2VrU3IAIAJo\",\n\t\"timeLeft\": \"_1bG_RPQ1LWuqSl2sWec9q\"\n};"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._3QAoe{height:100vh;display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;flex-flow:column nowrap}._2MwrO{border:solid 5px yellow;border-radius:50%;box-shadow:5px 5px 3px 3px grey;width:300px;height:300px;margin:30px auto;font-size:2em}._3uIQ9{margin:75px 20px;color:ivory}._3uIQ9 ._387f2{font:italic 1.5em sans-serif}._3uIQ9 ._1bG_R{font:2em DS-Digital, sans-serif, Arial}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"container\": \"_3QAoe\",\n\t\"clockScreen\": \"_2MwrO\",\n\t\"clockInfo\": \"_3uIQ9\",\n\t\"timerLabel\": \"_387f2\",\n\t\"timeLeft\": \"_1bG_R\"\n};"
         },
         {
           "id": 1,
@@ -8401,14 +8401,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3132,
+          "size": 3047,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "6b5c31f31b074c565000",
+          "hash": "90d4eb0d11d693a080ef",
           "siblings": [
           ],
           "parents": [
@@ -8424,7 +8424,7 @@
               "name": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/timersetup/timersetup.scss",
               "index": 0,
               "index2": 1,
-              "size": 455,
+              "size": 370,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -8458,7 +8458,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._1E5QONaO3KL4LHKY03Ri-K{font-size:2em;display:inline-block;width:300px}._1E5QONaO3KL4LHKY03Ri-K ._1SR4Nx614iFVUwZxBE1JQf{display:inline-block;font-family:DS-Digital, sans-serif, Arial;font-size:1.5em}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"timer\": \"_1E5QONaO3KL4LHKY03Ri-K\",\n\t\"timerAdjust\": \"_1SR4Nx614iFVUwZxBE1JQf\"\n};"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._1E5QO{font-size:2em;display:inline-block;width:300px}._1E5QO ._1SR4N{display:inline-block;font-family:DS-Digital, sans-serif, Arial;font-size:1.5em}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"timer\": \"_1E5QO\",\n\t\"timerAdjust\": \"_1SR4N\"\n};"
             },
             {
               "id": 1,
@@ -8530,7 +8530,7 @@
           "name": "./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js!./src/timersetup/timersetup.scss",
           "index": 0,
           "index2": 1,
-          "size": 455,
+          "size": 370,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -8564,7 +8564,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._1E5QONaO3KL4LHKY03Ri-K{font-size:2em;display:inline-block;width:300px}._1E5QONaO3KL4LHKY03Ri-K ._1SR4Nx614iFVUwZxBE1JQf{display:inline-block;font-family:DS-Digital, sans-serif, Arial;font-size:1.5em}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"timer\": \"_1E5QONaO3KL4LHKY03Ri-K\",\n\t\"timerAdjust\": \"_1SR4Nx614iFVUwZxBE1JQf\"\n};"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \"._1E5QO{font-size:2em;display:inline-block;width:300px}._1E5QO ._1SR4N{display:inline-block;font-family:DS-Digital, sans-serif, Arial;font-size:1.5em}\\n\", \"\"]);\n// Exports\nexports.locals = {\n\t\"timer\": \"_1E5QO\",\n\t\"timerAdjust\": \"_1SR4N\"\n};"
         },
         {
           "id": 1,
