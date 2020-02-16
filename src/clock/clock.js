@@ -4,9 +4,8 @@ import clockCSS from './clock.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 /*
--xem them https://codepen.io/no_stack_dub_sack/pen/VKJGKd?editors=0010 ve dem countdown chinh xac 1 ma van chua hieu
--xem them countdown timer trong HOWTO va setTimeout, setInterval trong DOM Window cua w3school de lam phan countdown trong bai nay
--kha nang cao la countdown cua minh lam ko dc chinh xac 100%
+-xem them https://codepen.io/no_stack_dub_sack/pen/VKJGKd?editors=0010 ve dem countdown ma van chua hieu
+-xem them countdown timer trong HOWTO va setTimeout, setInterval trong DOM Window cua w3school de lam phan countdown
 -Tri Phan
 */
 export class Clock extends Component {
@@ -122,20 +121,12 @@ export class Clock extends Component {
         <div>
           <h1 style={{textAlign:'center', color: '#4b0082', fontSize: '5em'}}>Pomodoro Clock</h1>  {/*de cho nho cach khai bao inline style JSX*/}
           <TimerSetUp 
-          labelID='break-label'
           label='Break Length'
-          decrementID='break-decrement'
-          incrementID='break-increment'
-          lengthID='break-length'
           length={this.state.breakLength}
           onClick={this.adjustBreak}
           />
           <TimerSetUp 
-          labelID='session-label'
           label='Session Length'
-          decrementID='session-decrement'
-          incrementID='session-increment'
-          lengthID='session-length'
           length={this.state.sessionLength}
           onClick={this.adjustSession}
           />

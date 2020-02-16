@@ -16,7 +16,8 @@ module.exports = {
           chunks: 'all',
         }
       }
-    }
+    },
+    runtimeChunk: true
   },
   module: {
     rules: [
