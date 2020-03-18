@@ -1,10 +1,26 @@
+@mixin font-size($font-size) {
+  font-size: $font-size;
+}
+
 .timer {
-  font-size: 2em;
+  @include font-size(1.2rem);
   display: inline-block;
-  width: 300px;
+  margin: 0em .5em;
+  width: 80%;
   .timerAdjust {
+    @include font-size(2rem);
     display: inline-block;
+    margin: .2em .2em;
     font-family: DS-Digital, sans-serif, Arial;
-    font-size: 1.5em;
     }
+}
+
+@media screen and (min-width: 720px) {
+  .timer {
+    @include font-size(2rem);
+    width: 30vw;
+    .timerAdjust {
+      @include font-size(3rem);
+    }
+  }
 }

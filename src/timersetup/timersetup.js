@@ -10,13 +10,13 @@ export class TimerSetUp extends Component {
           {this.props.label}
         </div>
         <button onClick={this.props.onClick} value='-' className={timerCSS.timerAdjust}>
-          <FontAwesomeIcon icon='angle-down' size='sm' />
+          <FontAwesomeIcon icon='angle-down' size='md' />
         </button>
         <div className={timerCSS.timerAdjust}>
           {this.props.length}
         </div>
         <button onClick={this.props.onClick} value='+' className={timerCSS.timerAdjust}>
-          <FontAwesomeIcon icon='angle-up' size='sm' />
+          <FontAwesomeIcon icon='angle-up' size='md' />
         </button>
       </div>               
     )

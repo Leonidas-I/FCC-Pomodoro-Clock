@@ -119,7 +119,7 @@ export class Clock extends Component {
     return(
       <div className={clockCSS.container}>
         <div>
-          <h1 style={{textAlign:'center', color: '#4b0082', fontSize: '5em'}}>Pomodoro Clock</h1>  {/*de cho nho cach khai bao inline style JSX*/}
+          <h1 style={{textAlign:'center', color: '#4b0082'}}>Pomodoro Clock</h1>  {/*de cho nho cach khai bao inline style JSX*/}
           <TimerSetUp 
           label='Break Length'
           length={this.state.breakLength}
@@ -143,11 +143,11 @@ export class Clock extends Component {
         </div>
         <div>
           <button id='start_stop' onClick={this.playPause}>
-            <FontAwesomeIcon icon='play' size='3x' />
-            <FontAwesomeIcon icon='pause' size='3x' />
+            <FontAwesomeIcon icon='play' size='2x' />
+            <FontAwesomeIcon icon='pause' size='2x' />
           </button>
           <button id='reset' onClick={this.reset}>
-            <FontAwesomeIcon icon='sync-alt' size='3x' />
+            <FontAwesomeIcon icon='sync-alt' size='2x' />
           </button>
         </div>
         <audio id='beep' src='https://www.w3schools.com/html/horse.mp3'

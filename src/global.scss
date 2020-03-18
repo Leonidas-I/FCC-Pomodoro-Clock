@@ -25,8 +25,8 @@ button {
 }
 
 footer {
-  margin: 40px auto;
-  font-size: 2em;
+  margin: 1em auto;
+  font-size: 1rem;
   color: teal;
   &:hover {
     color: ivory;
@@ -36,8 +36,14 @@ footer {
   a {text-decoration: none;}
 }
 
-@media screen and (max-width: 720px) {
-  body {
-    transform: scale(0.6);
+@media screen and (min-width: 720px) {
+  h1 {
+    font-size: 5rem;
+    margin: 1em auto;
+  }
+
+  footer {
+    margin: 2em auto;
+    font-size: 2rem;
   }
 }

@@ -7,22 +7,34 @@
 }
 
 .clockScreen {
-  border: solid 5px yellow;
+  border: 5px solid yellow;
   border-radius: 50%;
   box-shadow: 5px 5px 3px 3px grey;
-  width: 300px;
-  height: 300px;
-  margin: 30px auto;
-  font-size: 2em;
+  width: 200px;
+  height: 200px;
+  margin: 1em auto;
 }
 
 .clockInfo {
-  margin: 75px 20px;
+  margin: 30% auto;
   color: ivory;
   .timerLabel {
-    font: italic 1.5em sans-serif;
+    font: italic 2rem sans-serif;
   }
   .timeLeft {
-    font: 2em DS-Digital, sans-serif, Arial;
+    font: 2.5rem DS-Digital, sans-serif, Arial;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .clockScreen {
+    width: 300px;
+    height: 300px;
+    margin: 2em auto;
+  }
+
+  .clockInfo {
+    .timerLabel {font-size: 3rem;}
+    .timeLeft {font-size: 4rem;}
   }
 }
